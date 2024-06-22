@@ -101,34 +101,33 @@
   .btn:hover {
     background-color: #27ae60;
   }
-  .skills-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  .skills-section {
-    background-color: #ffffff;
-    border: 1px solid #3498db;
-    padding: 10px;
-    margin: 10px 0;
-    border-radius: 5px;
-    flex: 0 0 calc(33.33% - 20px); /* Adjust width to fit three boxes in one line */
-    box-sizing: border-box;
-  }
-  .skills-section:hover{
-    box-shadow:5px 5px 10px 5px silver;
-    transition-duration: 0.5s;
-  }
-  .skills-section h3 {
-    margin-top: 0;
-  }
-  .skills {
-    list-style-type: none;
-    padding: 0;
-  }
-  .skills li {
-    padding: 5px 0;
-  }
+<div class="skills-section">
+        <h3>Frontend Frameworks</h3>
+        <ul class="skills">
+          <li>jQuery</li>
+        </ul>
+      </div>
+      <div class="skills-section">
+        <h3>Backend Frameworks</h3>
+        <ul class="skills">
+          <li>Django</li>
+        </ul>
+      </div>
+      <div class="skills-section">
+        <h3>Databases</h3>
+        <ul class="skills">
+          <li>SQL</li>
+        </ul>
+      </div>
+      <div class="skills-section">
+        <h3>Tools</h3>
+        <ul class="skills">
+          <li>Git</li>
+          <li>Webpack</li>
+        </ul>
+      </div>
+    </div>
+  </section>
   footer {
     background-color: #3498db;
     color: #ffffff;
